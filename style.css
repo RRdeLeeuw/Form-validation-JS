@@ -14,7 +14,7 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 
-.container {
+.form-field-container {
   width: 400px;
   background-color: #fff;
   padding: 1em;

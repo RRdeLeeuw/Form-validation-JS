@@ -42,7 +42,7 @@ const isStrongPassword = (password) => {
 // Functions that add the error or succes message and class
 const showError = (input, message) => {
   const formField = input.parentElement;
-  formField.classList.remove("succces");
+  formField.classList.remove("succes");
   formField.classList.add("error");
   const errorMessage = formField.querySelector("div");
   errorMessage.innerText = message;
