@@ -82,7 +82,7 @@ const checkEmail = () => {
 const checkPassword = () => {
 	let valid = false;
 	const password = passwordField.value.trim();
-	if (isEmpty(passwordField)) {
+	if (isEmpty(password)) {
 		showError(passwordField, 'Please enter a password.');
 	} else if (!isStrongPassword(password)) {
 		showError(
